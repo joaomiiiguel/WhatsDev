@@ -1,0 +1,10 @@
+export const theme = {
+    colors:{
+        primary: '#075F56',
+        secundary: '#26D366',
+        branco: '#F7F7F7',
+        cinza: '#ACACAC',
+        azul: '#33B7EF',
+        vermelho: '#EA2140',
+    }
+}

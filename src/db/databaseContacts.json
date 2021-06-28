@@ -1,0 +1,74 @@
+[
+    
+    {
+        "id": "1",
+        "name": "Rayssa",
+        "avatar": "https://gntech.med.br/pub/media/wysiwyg/dia_das_mulheres_depressao.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "lost"
+    },
+    {
+        "id": "2",
+        
+        "name": "Arthur",
+        "avatar": "https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "accepted"
+    },
+    {
+        "id": "3",
+        "name": "Monalisa",
+        "avatar": "https://i.pinimg.com/originals/55/91/80/5591809ff56c527ff1897828d2fb3290.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "refused"
+    },
+    {
+        "id": "4",
+        "name": "Rafael",
+        "avatar": "https://jpimg.com.br/uploads/2020/11/michaelbjordan_72644259_754494451660475_1762705712124121973_n-1024x707.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "accepted"
+    },
+    {
+        "id": 5,
+        "name": "Miguel",
+        "avatar": "https://conexao.segurosunimed.com.br/wp-content/uploads/2018/11/mes-homem-1.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "accepted"
+    },
+    {
+        "id": "6",
+        "name": "Patrícia",
+        "avatar": "https://drogariasantoremedio.com.br/wp-content/uploads/2018/07/mulher-saude-dicas-cuidados-1.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "accepted"
+    },
+    {
+        "id": "7",
+        "name": "Lucas",
+        "avatar": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "number":"(+55) 11 98574-8747",
+        "status": "accepted"
+    },
+    {
+        "id": "8",
+        "name": "Pedro",
+        "avatar": "https://static1.dermaclub.com.br/articles/7/52/27/@/11757-xxx-article_media_header_mobile-2.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "refused"
+    },
+    {
+        "id": "9",
+        "name": "Vagner",
+        "avatar": "https://homemnoespelho.com.br/wp-content/uploads/2021/06/Homem-No-Espelho-Como-ser-um-homem-mais-atraente-640x853.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "refused"
+    },
+    {
+        "id": "10",
+        "name": "Mateus",
+        "avatar": "https://image.freepik.com/fotos-gratis/homem-bonito-pensando-com-concentracao_23-2147805628.jpg",
+        "number":"(+55) 11 98574-8747",
+        "status": "refused"
+    }
+]
