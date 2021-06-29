@@ -5,9 +5,11 @@ import { theme } from '../styles/globalcss';
 
 const Item = ({ name, avatar }) => (
   <TouchableOpacity style={styles.store}>
-    <Image
-      style={styles.Avatar}
-      source={{ uri: `${avatar}` }} />
+    <View style={styles.ContentFT}>
+      <Image
+        style={styles.Avatar}
+        source={{ uri: `${avatar}` }} />
+    </View>
     <Text style={{ fontWeight: 'bold', color: '#F7F7F7', fontSize: 13 }}>{name}</Text>
   </TouchableOpacity>
 );
@@ -18,7 +20,7 @@ export default function Stories() {
   );
 
   return (
-    <ScrollView style={styles.StoriesContainer}>
+    <ScrollView style={styles.StoriesContainer} horizontal={true}>
       <FlatList
         horizontal
         data={DATA}
@@ -39,13 +41,24 @@ const styles = StyleSheet.create({
   },
   store: {
     alignItems: 'center',
-    margin: 3,
+    margin: 5,
+
   },
-  Avatar: {
-    backgroundColor: theme.colors.primary,
+  ContentFT:{
+    backgroundColor: theme.colors.secundary,
     width: 65,
     height: 65,
-    borderRadius: 50
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent:'center'
+  },
+  Avatar: {
+    backgroundColor: theme.colors.branco,
+    width: 60,
+    height: 60,
+    borderRadius: 50,
+    borderWidth: 3,
+    borderColor: theme.colors.primary
   },
 
 })

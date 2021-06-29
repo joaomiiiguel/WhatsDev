@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
         backgroundColor: theme.colors.primary,
     },
     iconList:{
-        width: '30%',
+        width: '20%',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent:'space-between',
@@ -38,9 +38,9 @@ export const styles = StyleSheet.create({
     },
     chatContainer:{
         flex: 3,
-        paddingHorizontal: 15,
-        paddingBottom: 10,
-        paddingTop: 10,
+        paddingHorizontal: 8,
+        paddingBottom: 20,
+        paddingTop: 5,
         width: '100%',
         backgroundColor: theme.colors.branco,
     },

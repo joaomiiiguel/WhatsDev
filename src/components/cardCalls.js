@@ -3,21 +3,23 @@ import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native';
 import { theme } from '../styles/globalcss';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-export default function ContactChats({ avatar, name, number, status }) {
+
+export default function CardCalls({ avatar, name, status, date }) {
     return (
         <View style={styles.CardChat}>
             <Image
                 style={styles.Avatar}
                 source={{ uri: `${avatar}` }} />
-            <View style={{ width: '75%', justifyContent: 'space-between', flexDirection: 'row', alignItems:'center' }}>
+                {status === 'accepted' ? <Icon style={styles.callStatus} name="arrow-redo" size={23} color="#EA2140" /> : <Icon style={styles.callStatus} name="arrow-undo" size={23} color="#26D366" />}
+            <View style={{ width: '75%', justifyContent: 'space-between', flexDirection: 'row', alignItems: 'center' }}>
                 <View>
-                    <Text style={{ fontWeight: 'bold', fontSize: 18, color: theme.colors.primary }}>{name}</Text>
-                    <Text style={{ color: theme.colors.cinza, paddingTop: 5 }}>{number}</Text>
+                    <Text style={{ fontWeight: 'bold', fontSize: 16, color: theme.colors.primary }}>{name}</Text>
+                    <Text style={styles.TextCall}>{date}</Text>
                 </View>
-                <View style={{ justifyContent: 'space-between', flexDirection: 'row', alignItems:'center' }}>
-                    <TouchableOpacity><Icon style={{marginRight: 15}}name="chatbubbles" size={23} color="#075F56" /></TouchableOpacity>
-                    <TouchableOpacity><Icon name="call" size={23} color="#075F56" /></TouchableOpacity>
-                </View>
+                <TouchableOpacity style={{ justifyContent: 'space-between', flexDirection: 'row', alignItems: 'center' }}>
+
+                    <Icon name="call" size={23} color="#075F56" />
+                </TouchableOpacity>
             </View>
         </View>
     );
@@ -50,13 +52,20 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         marginRight: 10,
     },
-    SMSAtived:{
-        backgroundColor: theme.colors.azul, 
-        color: theme.colors.branco, 
-        padding: 5, 
-        borderRadius: 50, 
-        width: 30, 
-        textAlign: 'center'
+    TextCall: {
+        alignItems:'center',
+        textAlign: 'center',
+        color: theme.colors.cinza,
+        paddingTop: 5,
+        fontSize: 14,
+    },
+    callStatus:{
+        position: 'absolute',
+        backgroundColor: '#FFF',
+        borderRadius: 25,
+        top: 50,
+        left: 50,
+        elevation: 2
     }
 
 })

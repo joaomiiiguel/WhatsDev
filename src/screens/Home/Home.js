@@ -39,7 +39,7 @@ export default function Home({ navigation }) {
                 <FlatList
                     data={DATA}
                     renderItem={renderItem}
-                    keyExtractor={item => item.id}
+                    keyExtractor={item => item.id.toString()}
                 />
             </View>
         </View>

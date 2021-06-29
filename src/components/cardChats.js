@@ -11,12 +11,12 @@ export default function CardChats({ avatar, name, lastMessage, time, SMS }) {
             <Image />
             <View style={{ width: '75%', justifyContent: 'space-between', flexDirection: 'row' }}>
                 <View>
-                    <Text style={{ fontWeight: 'bold', fontSize: 18, color: theme.colors.primary }}>{name}</Text>
-                    <Text style={{ color: theme.colors.cinza, paddingTop: 5 }}>{lastMessage}</Text>
+                    <Text style={{ fontWeight: 'bold', fontSize: 16, color: theme.colors.primary }}>{name}</Text>
+                    <Text style={{ color: theme.colors.cinza, paddingTop: 5, fontSize: 14, }}>{lastMessage}</Text>
                 </View>
                 <View>
                     <Text style={{ color: theme.colors.cinza }}>{time}</Text>
-                        {SMS > 0 ? <Text style={styles.SMSAtived}>{SMS}</Text> : <Text style={{display:'none'}}/> }
+                        {SMS > '0' ? <Text style={styles.SMSAtived}>{SMS}</Text> : <Text style={{display:'none'}}/> }
                 </View>
             </View>
         </TouchableOpacity>
@@ -45,13 +45,13 @@ const styles = StyleSheet.create({
     },
     Avatar: {
         backgroundColor: theme.colors.primary,
-        width: 65,
-        height: 65,
+        width: 52,
+        height: 52,
         borderRadius: 50,
         marginRight: 10,
     },
     SMSAtived:{
-        backgroundColor: theme.colors.azul, 
+        backgroundColor: theme.colors.vermelho, 
         color: theme.colors.branco, 
         padding: 5, 
         borderRadius: 50, 

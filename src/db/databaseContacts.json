@@ -5,7 +5,8 @@
         "name": "Rayssa",
         "avatar": "https://gntech.med.br/pub/media/wysiwyg/dia_das_mulheres_depressao.jpg",
         "number":"(+55) 11 98574-8747",
-        "status": "lost"
+        "date": "(2) Today, 11:23 am",
+        "status": "refused"
     },
     {
         "id": "2",
@@ -13,6 +14,7 @@
         "name": "Arthur",
         "avatar": "https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "accepted"
     },
     {
@@ -20,6 +22,7 @@
         "name": "Monalisa",
         "avatar": "https://i.pinimg.com/originals/55/91/80/5591809ff56c527ff1897828d2fb3290.jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "refused"
     },
     {
@@ -27,13 +30,15 @@
         "name": "Rafael",
         "avatar": "https://jpimg.com.br/uploads/2020/11/michaelbjordan_72644259_754494451660475_1762705712124121973_n-1024x707.jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "accepted"
     },
     {
         "id": 5,
         "name": "Miguel",
-        "avatar": "https://conexao.segurosunimed.com.br/wp-content/uploads/2018/11/mes-homem-1.jpg",
+        "avatar": "https://scontent.fcpv3-1.fna.fbcdn.net/v/t1.6435-9/101840808_3264454340245338_770864982303703040_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ai4y1My2PsEAX9Yl8eS&tn=dgiz5aijTlFW6FN2&_nc_ht=scontent.fcpv3-1.fna&oh=c217e74e48b5abace857512bc12ff2a0&oe=60DFD260",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "accepted"
     },
     {
@@ -41,6 +46,7 @@
         "name": "Patrícia",
         "avatar": "https://drogariasantoremedio.com.br/wp-content/uploads/2018/07/mulher-saude-dicas-cuidados-1.jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "accepted"
     },
     {
@@ -48,6 +54,7 @@
         "name": "Lucas",
         "avatar": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "accepted"
     },
     {
@@ -55,6 +62,7 @@
         "name": "Pedro",
         "avatar": "https://static1.dermaclub.com.br/articles/7/52/27/@/11757-xxx-article_media_header_mobile-2.jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "refused"
     },
     {
@@ -62,6 +70,7 @@
         "name": "Vagner",
         "avatar": "https://homemnoespelho.com.br/wp-content/uploads/2021/06/Homem-No-Espelho-Como-ser-um-homem-mais-atraente-640x853.jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "refused"
     },
     {
@@ -69,6 +78,7 @@
         "name": "Mateus",
         "avatar": "https://image.freepik.com/fotos-gratis/homem-bonito-pensando-com-concentracao_23-2147805628.jpg",
         "number":"(+55) 11 98574-8747",
+        "date": "Today, 11:23 am",
         "status": "refused"
     }
 ]
